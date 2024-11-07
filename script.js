@@ -27,8 +27,8 @@ function calculateBill() {
     document.getElementById('result').innerHTML = `
         <p>Total Units Consumed: ${totalUnits} kWh</p>
         <p>Family 1 Units Consumed: ${family1Units} kWh</p>
-        <p>Amount Per Unit: ₹${amtPerUnit.toFixed(2)}</p>
-        <p><strong>Family 1's Bill: ₹${family1Bill}</strong></p>
-        <p><strong>Family 2's Bill: ₹${family2Bill}</strong></p>
+        <p>Amount Per Unit: ₹ ${amtPerUnit.toFixed(2)}</p>
+        <p><strong>Family 1's Bill: ₹ ${family1Bill}</strong></p>
+        <p><strong>Family 2's Bill: ₹ ${family2Bill}</strong></p>
     `;
 }
