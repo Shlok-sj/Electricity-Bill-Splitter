@@ -102,20 +102,48 @@ input[type="number"] {
     border-radius: 4px;
 }
 
+/* Calculate button styling with hover effect */
 button {
     width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    padding: 12px;
+    background-color: #4A90E2;
     color: white;
     border: none;
     border-radius: 4px;
+    font-size: 1em;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
+/* Hover effect for button */
 button:hover {
-    background-color: #0056b3;
+    background-color: #357ABD; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
-#result {
+/* Result box styling */
+.result {
     margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f4fa; /* Light blue background */
+    border: 1px solid #B6E2F0;
+    border-radius: 4px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for the result box */
+}
+
+/* Label styling for better readability */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Footer text styling */
+p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
 }
