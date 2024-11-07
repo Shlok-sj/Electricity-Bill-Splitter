@@ -11,12 +11,20 @@
         <h1>Electricity Bill Calculator</h1>
         <form id="billForm">
             <div class="input-group">
-                <label for="totalReading">Total Reading (kWh):</label>
+                <label for="totalReading">New Total Reading (kWh):</label>
                 <input type="number" id="totalReading" required>
             </div>
             <div class="input-group">
-                <label for="family1Reading">Family 1 Reading (kWh):</label>
+                <label for="previousReading">Previous Total Reading (kWh):</label>
+                <input type="number" id="previousReading" required>
+            </div>
+            <div class="input-group">
+                <label for="family1Reading">New Family 1 Reading (kWh):</label>
                 <input type="number" id="family1Reading" required>
+            </div>
+            <div class="input-group">
+                <label for="previousFamily1Reading">Previous Family 1 Reading (kWh):</label>
+                <input type="number" id="previousFamily1Reading" required>
             </div>
             <div class="input-group">
                 <label for="billAmount">Total Bill Amount ($):</label>
